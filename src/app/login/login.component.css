@@ -1,0 +1,15 @@
+.error{
+  color:red
+}
+
+.border-danger{
+  border-color: red;
+}
+
+.ng-valid[required], .ng-valid.required  {
+  border: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border: 2px solid red; /* red */
+}
